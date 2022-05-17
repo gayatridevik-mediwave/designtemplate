@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to bottom right, #d3c7f0, #f1f0f5,#ffffff );
+    background-repeat: no-repeat;
+    height: 1700px;
+}
+
+.Nav-Container{
+    padding: 80px 157px 0px 109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo-Container{
+    font-size: 24px;
+    color: #4B42E5;
+}
+
+.Sub-Container a, button{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #414141;
+    font-size: 18px;
+    opacity: 1;
+}
+.Sub-Container button{
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color:#4B42E5;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Section-Container{
+    max-width: 100%;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+}
+
+.Content{
+    padding-left:109px;
+    width: 60%;
+    margin-top:70px;
+}
+
+.Bold-text p{
+    margin: 0px;
+    font-size: 70px;
+    color: #313131;
+    opacity: 1;
+}
+
+.Thin-text p{
+    margin-top: 20px;
+    margin:0px;
+    font-size: 18px;
+    color: #313131;
+    opacity: 1;
+}
+
+.button button{
+    margin-top:20px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color:#4B42E5;
+    color:#ffffff;
+    font-size: 18px;
+}
+.Image{
+    padding-right: 157px;
+    width: 40%;
+}
+.Image img{
+    position: absolute;
+    width: 492px;
+    height: 649px;
+}
+
+/* .Img1 img{
+   
+    width:94px;
+    height:91px;
+}
+.Img2 img{
+    
+    width: 16px;
+    height:16px;
+}
+.Img3 img{
+    
+    width:106px;
+    height:106px;
+} */
+.Main-Card{
+    position:relative;
+    margin-top: 200px;
+    padding-left: 109px;
+}
+.Cards-Container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    
+    padding:80px 0px 0px 56px;
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;  
+}
+.Text1{
+    margin-top: 20px;
+}
+.Text2{
+    margin-top: 20px;
+}
+.Text1 p{
+    font-size: 24px;
+    margin: 0px;
+}
+.Text2 p{
+    font-size: 18px;
+    color: #909090;
+    margin: 0px;
+}
+.card2{
+    padding:80px 0px 0px 56px;
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+}
+.Text12{
+    margin-top: 20px;
+}
+.Text22{
+    margin-top: 20px;
+}
+.Text12 p{
+    font-size: 24px;
+    margin: 0px;
+}
+.Text22 p{
+    font-size: 18px;
+    color: #909090;
+    margin: 0px;
+}
+.card3{
+    padding:80px 0px 0px 56px;
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+    background-image: linear-gradient(to bottom right, #4B42E5, #8742E5);
+    background-repeat: no-repeat;
+}
+.Text13{
+    margin-top: 20px;
+}
+.Text23{
+    margin-top: 20px;
+}
+.Text13 p{
+    font-size: 24px;
+    margin: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Text23 p{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0px;
+    font-family: Raleway, SemiBold;
+    opacity: 0.7;
+}
+.Poly{
+    margin-left: -82px;
+    padding:0px;
+}
+
+.Poly img{
+    width: 160px;
+    height: 155px;
+}
+
+.End-Container{
+    padding-left:109px;
+    padding-right:157px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Inner-Container{
+    padding: 79px 0px 0px 105px;
+    border-radius: 100px 100px 0px 0px;
+    width: 1200px;
+    height: 400px;
+    background-image: linear-gradient(to bottom right, #4B42E5, #8742E5);
+}
+
+.Inner-Container p{
+    margin: 0px;
+    font-size: 70px;
+    font-family: Raleway, Black;
+    color:#FFFFFF;
+}
